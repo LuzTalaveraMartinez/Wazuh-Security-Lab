@@ -1,0 +1,22 @@
+# Instaladores y archivos pesados
+*.deb
+*.tar
+*.iso
+
+# Seguridad y Claves (CRÍTICO)
+wazuh-passwords.txt
+*.pem
+*.key
+wazuh-install-files/
+
+# Logs y capturas
+*.pcap
+*.log
+
+# Basura del sistema
+.DS_Store
+
+*.log
+*.json
+wazuh-passwords.txt
+.wazuh-passwords.txt
